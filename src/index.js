@@ -1,1 +1,3 @@
-import './script.js'
+import script from './script.js';
+
+script();
