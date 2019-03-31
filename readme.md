@@ -1,5 +1,5 @@
 
-PRACA DOMOWA 2: Rozszerzyć naszą konfigurację webpacka tak, aby:
+#PRACA DOMOWA 2: Rozszerzyć naszą konfigurację webpacka tak, aby:
 kompilował SASSa
 załączał style do projektu
 automatycznie dołączał prefixy przeglądarek do styli (postcss)
@@ -13,7 +13,7 @@ Na rozwiązanie czekamy do poniedziałku 1.04. do godziny 23:59
 
 
 
-PRACA DOMOWA 1: Skonfiguruj swoją aplikację front-end'ową z wykorzystaniem:
+#PRACA DOMOWA 1: Skonfiguruj swoją aplikację front-end'ową z wykorzystaniem:
 npm do instalacji paczek
 Webpack jako bundler (+html-webpack-plugin)
 Babel do kompilacji JS + @babel/preset-env + ustawienie browserlist
