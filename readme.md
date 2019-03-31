@@ -9,7 +9,6 @@ Zastosować metodologię BEM
 RWD nie jest wymagane, ale będzie dodatkowo punktowane
 Pracę domową wykonaj na podstawie rozwiązania z lekcji pierwszej: https://github.com/daftcode/daftacademy-frontend_levelup-spring2019/tree/master/prace_domowe/lekcja_1/praca_domowa-rozwi%C4%85zanie lub wykorzystaj własne rozwiązanie
 
-Na rozwiązanie czekamy do poniedziałku 1.04. do godziny 23:59
 
 
 
@@ -20,5 +19,3 @@ Babel do kompilacji JS + @babel/preset-env + ustawienie browserlist
 w aplikacji użyj naszego skryptu dostępnego na: https://github.com/daftcode/daftacademy-frontend_levelup-spring2019/blob/master/prace_domowe/lekcja_1/script.js
 Skryptu użyj przy pomocy deklaracji import
 wrzuć apkę na GitHub i opublikuj na GitHub Pages
-prześlij adres repo na maila: frontend@daftacademy.pl
-Deadline: Poniedziałek, 25.03.2019 do końca dnia
