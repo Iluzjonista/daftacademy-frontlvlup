@@ -1,6 +1,60 @@
 .page-title {
     position: absolute;
-    top: -25px;
+    top: -20px;
     left: 50px;
     padding: 0.4rem 1rem;
   }
+  .listmenu{
+    display: none;
+  }
+  .menunavigation {
+
+    & ul {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      padding-top: 5%;
+      @include atLarge{
+        flex-direction: row;
+      }
+  
+    }
+  
+    & li {
+      list-style: none;
+      align-self: center;
+      color:$cyan-light;
+      transition: .5s;
+      cursor: pointer;
+      padding-bottom: 1px;
+      flex-basis: 21%;
+      flex-shrink: 0;
+  
+      @include atLarge{
+        flex-basis: auto;
+      }
+  
+      &:hover {
+        color: #222;
+        border-bottom: 1px solid $black;
+        padding-bottom: 0px;
+      }
+    }
+  }
+  .wrapper {
+  margin: 0 auto;
+    @include atMedium{
+     max-width: 80%;
+    }
+  }
+  .menu{
+    max-width: 1200px;
+    margin: 10vh auto ;
+    position: relative;
+    padding: 80px 0;
+   }
+   .active{
+        
+    border-bottom: 1px solid $black;
+    padding-bottom: 0px;
+   }

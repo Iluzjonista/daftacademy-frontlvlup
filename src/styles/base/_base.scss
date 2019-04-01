@@ -11,7 +11,7 @@ html {
   *,
   *::before,
   *::after {
-    box-sizing: inherit;
+    box-sizing: border-box;
   }
   
   /**
@@ -27,17 +27,15 @@ html {
       text-decoration: underline;
     }
   body{
-    background-color: white;
+    //background-color: white;
     font-family: $text-font-stack;
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
-  .image {
-    height: 250px;
-    width: 250px;
-    background-size: cover;
-    color: white;
-  }
-  .page-paint {
-    background-color: $blue-light;
-  }
   }

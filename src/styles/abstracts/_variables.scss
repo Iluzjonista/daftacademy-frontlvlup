@@ -11,9 +11,10 @@ $code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono',
 
 
 
-
+$black: #000;
+$white: #fff;
 $cyan-light: #bed3cf;
-
+$dark-blue: rgb(39, 53, 79);
 /// Copy text color
 /// @type Color
 $text-color: rgb(34, 34, 34) !default;
@@ -59,10 +60,3 @@ $breakpoints: (
 
 
 
-
-
-/// Relative or absolute URL where all assets are served from
-/// @type String
-/// @example scss - When using a CDN
-///   $base-url: 'http://cdn.example.com/assets/';
-$base-url: '/styles/' !default;

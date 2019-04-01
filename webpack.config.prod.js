@@ -1,6 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const isDevelopment = process.env.NODE_ENV === 'development';
+const isProduction = process.env.NODE_ENV === 'production';
 const path = require('path');
 
 module.exports = {
@@ -25,17 +25,19 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-            isDevelopment 
+          isProduction 
             ? MiniCssExtractPlugin.loader
             : { loader: 'style-loader', options: { sourceMap: true} },
-            { loader: 'css-loader', options: {sourceMap: isDevelopment } },
-            { loader: 'postcss-loader', options: { soruceMap: isDevelopment} },
-            { loader: 'sass-loader', options: { sourceMap: isDevelopment } },
+            { loader: 'css-loader', options: {sourceMap: isProduction } },
+            { loader: 'postcss-loader', options: { soruceMap: isProduction} },
+            { loader: 'sass-loader', options: { sourceMap: isProduction } },
         ],
     }
 ],
 },
-  plugins: [new HtmlWebpackPlugin(),
+  plugins: [new HtmlWebpackPlugin({
+    template: './src/index.html'
+  }),
   
     new MiniCssExtractPlugin({
       filename: '[name].css',

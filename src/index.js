@@ -1,3 +1,3 @@
 //import script from './script.js';
-import './styles/style.scss';
+import '../src/styles/style.scss';
 //script();
