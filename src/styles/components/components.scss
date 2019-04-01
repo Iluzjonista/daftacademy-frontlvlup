@@ -6,7 +6,8 @@
     overflow: hidden;
     &:hover {
         border: 5px solid moccasin;
-      }
+        background-size: 150%;
+          }
   
   &_name {   
     color: $white;
