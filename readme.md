@@ -1,4 +1,5 @@
 
+Page: https://iluzjonista.github.io/daftacademy-frontlvlup/dist/
 <h2>#PRACA DOMOWA 2: Rozszerzyć naszą konfigurację webpacka tak, aby:</h2>
 kompilował SASSa
 załączał style do projektu
